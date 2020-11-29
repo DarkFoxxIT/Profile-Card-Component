@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+html, body, .section-profile{
+    height: 100%;
+}
+
+
+body{
+    background-image: url("Resources/bg-pattern-top.svg"), url("Resources/bg-pattern-bottom.svg");
+    background-position: -60px -300px, 900px 400px;
+   
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-color: 	#00B6C7;
+
+}
+
+
+.section-profile{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.section-profile-info{
+
+    background-color: white;
+    width:351px;
+    height:150px;
+    margin-top: -5px;
+
+}
+
+
+
+
+/*IMAGE*/
+#img-card{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#img-profile{
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    transform: translate(125px, -50%);
+    height:60%;
+    border: 8px solid white;
+}
+
+
+/*Text*/
+
+.info-text{
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#name , .first-p{
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+#name{
+    margin-top: -35px;
+}
+
+.info-text span {
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+}
+
+
+.section-text{
+    display: flex;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    
+    
+}
+
+
+.info-text{
+   margin-top: -17px;
+   padding-bottom: 10px;
+   
+}
+
+.city{
+   
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+    font-size: 16px;
+   padding-top: 5px;
+}
+
+
+
+.section-profile-followers, .section-profile-likes , .section-profile-photo{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: white;
+    width: 117px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.second-p{
+    font-weight: 400;
+    color:hsl(0, 0%, 59%);
+    font-size: 14px;
+   
+}
+
+
+.section-profile-followers{
+    border-bottom-left-radius: 10px;
+}
+
+.section-profile-photo{
+    border-bottom-right-radius: 10px;
+}
+
+
+.attribution{
+    font-family: 'Kumbh Sans', sans-serif; 
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    body{
+        background-image: url("Resources/bg-pattern-top.svg"), url("Resources/bg-pattern-bottom.svg");
+        background-position: -200px -250px, 190px 550px;
+       
+        background-repeat: no-repeat;
+        background-size: 450px;
+        background-color: 	#00B6C7;
+    
+    }
+    
+
+
+
+
+}
