@@ -1,3 +1,3 @@
 # Profile-Card-Component
 
-[LINK to project](profile-card-component-git-main.darkfoxxit.vercel.app)
+[LINK to project](https://profile-card-component.darkfoxxit.vercel.app/)
